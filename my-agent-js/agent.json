@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "provider": "together",
+  "task": "chat-completion",
+  "servers": [
+    { "type": "stdio", "command": "bash", "args": ["scripts/hf-mcp-remote.sh"] }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

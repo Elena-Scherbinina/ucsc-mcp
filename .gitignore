@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# extra/accidental dirs
+source/
+path/
+
+# Python
+.venv/
+__pycache__/
+
+# Node
+node_modules/
+
+# Ignore real env files (secrets)
+.env
+.env.*
+
+# But keep templates in git
+!.env.example
+!.env.*.example
+
+*.log

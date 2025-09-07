@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "provider": "nebius", 
+  "task": "chat-completion" ,
+  "servers": 
+  [
+    { "type": "stdio", "command": "bash", "args": ["scripts/hf-mcp-remote.sh"] }
+  ]
+}
