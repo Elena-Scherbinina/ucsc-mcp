@@ -10,18 +10,19 @@ It demonstrates:
 
 ## Repo layout
 ucsc-mcp/
-├─ my-agent/.             # Python tiny-agents config
+├─ my-agent/                 # Python tiny-agents config
 │  └─ config.json
-├─ my-agent-js/.          # Node tiny-agents config
+├─ my-agent-js/              # Node tiny-agents config
 │  └─ agent.json
 ├─ scripts/
-│  ├─ hf-mcp-remote.sh    # starts remote HF MCP (uses HF_TOKEN)
-│  ├─ run-py.sh           # Python CLI
-│  └─ run-js.sh.          # Node CLI
-├─ screenshots/           # PNGs referenced in README
-├─ .env.example           # template for secrets (commit this)
-├─ .gitignore.            # ensure .env and .venv are ignored
+│  ├─ hf-mcp-remote.sh       # starts remote HF MCP (uses HF_TOKEN)
+│  ├─ run-py.sh              # Python CLI
+│  └─ run-js.sh              # Node CLI
+├─ screenshots/              # PNGs referenced in README
+├─ .env.example              # template for secrets (commit this)
+├─ .gitignore                # ignore .env, .venv, etc.
 └─ README.md
+
 
 
 
