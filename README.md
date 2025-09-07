@@ -9,6 +9,7 @@ It demonstrates:
 
 
 ## Repo layout
+```
 ucsc-mcp/
 ├─ my-agent/                 # Python tiny-agents config
 │  └─ config.json
@@ -22,6 +23,7 @@ ucsc-mcp/
 ├─ .env.example              # template for secrets (commit this)
 ├─ .gitignore                # ignore .env, .venv, etc.
 └─ README.md
+```
 
 
 
