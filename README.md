@@ -39,33 +39,31 @@ ucsc-mcp/
 
 ```bash
 # Clone and enter
-```
 git clone https://github.com/<you>/ucsc-mcp.git
 cd ucsc-mcp
 ```
 
-
-# (Optional) Python venv
 ```
+# (Optional) Python venv
 python3 -m venv .venv
 source .venv/bin/activate
 pip install 'huggingface_hub[mcp]'
 ```
 
-
+```
 ## Setup
 1. Copy the env template and set your token:
 cp .env.example .env
 # edit .env and set HF_TOKEN=hf_xxx...
+```
 
 2. Make scripts executable:
 ```
 chmod +x scripts/hf-mcp-remote.sh scripts/run-py.sh scripts/run-js.sh
 ```
 
-
-# Run the Node CLI
 ```
+# Run the Node CLI
 scripts/run-js.sh
 ```
 
@@ -82,9 +80,8 @@ Search the HF docs for “space hardware requirements” and summarize in 3 bull
 
 Image generation (numbers as numbers):
 Call the function "gr1_flux1_schnell_infer" with args {"prompt":"a hummingbird and a red rose"} now
-
-# Run the Python CLI
 ```
+# Run the Python CLI
 scripts/run-py.sh
 ```
 
