@@ -106,7 +106,7 @@ The `screenshots/` folder contains example runs for both CLIs and tool calls.
 
 | Preview | Description |
 |---|---|
-| ![Python CLI start](screenshots/python_cli_tart.png) | Python client starting via `scripts/run-py.sh` |
+| ![Python CLI start](screenshots/python_cli_start.png) | Python client starting via `scripts/run-py.sh` |
 | ![Node.js CLI start](screenshots/node_cli_start.png) | Node.js client starting via `scripts/run-js.sh` |
 | ![HF whoami](screenshots/hf_whoami.png) | Calling `hf_whoami` |
 | ![Poem demo (Node.js)](screenshots/poem_ocean.png) | Two-line ocean poem (Node.js CLI) |
