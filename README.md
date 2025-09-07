@@ -39,14 +39,18 @@ ucsc-mcp/
 
 ```bash
 # Clone and enter
+```
 git clone https://github.com/<you>/ucsc-mcp.git
 cd ucsc-mcp
+```
 
 
 # (Optional) Python venv
+```
 python3 -m venv .venv
 source .venv/bin/activate
 pip install 'huggingface_hub[mcp]'
+```
 
 
 ## Setup
@@ -55,11 +59,15 @@ cp .env.example .env
 # edit .env and set HF_TOKEN=hf_xxx...
 
 2. Make scripts executable:
+```
 chmod +x scripts/hf-mcp-remote.sh scripts/run-py.sh scripts/run-js.sh
+```
 
 
 # Run the Node CLI
+```
 scripts/run-js.sh
+```
 
 You’ll see the agent start and a > prompt.
 Try:
@@ -76,7 +84,9 @@ Image generation (numbers as numbers):
 Call the function "gr1_flux1_schnell_infer" with args {"prompt":"a hummingbird and a red rose"} now
 
 # Run the Python CLI
+```
 scripts/run-py.sh
+```
 
 At the » prompt, same calls work; e.g.:
 hf_whoami
